@@ -52,7 +52,7 @@ class Nest:
           self.device_id = res["structure"][self.structure_id]["devices"][self.index]
           self.serial = self.device_id.split(".")[1]
 
-          self.status = res
+       self.status = res
 
         #print "res.keys", res.keys()
         #print "res[structure][structure_id].keys", res["structure"][self.structure_id].keys()
